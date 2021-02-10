@@ -1,7 +1,22 @@
-body {
-	color: red;
-}
+/* Var */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Caveat");
 
-h1 {
-	color: green;
-}
+@import "variables";
+@import "mixins";
+
+@import "normalize";
+@import "layout";
+@import "typography";
+
+/* Components */
+@import "components/navigation";
+
+/* Sections */
+// @import "sections/main";
+// @import "sections/generalstat";
+// @import "sections/generallinks";
+// import "sections/registration_form";
+
+/* Pages / Views */
+// import "pages/registration";
