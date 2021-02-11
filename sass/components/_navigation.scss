@@ -39,7 +39,7 @@
 		}
 		&:focus ~ .nav-menu-list,
 		.nav-menu-list:hover {
-			transform: translateX(-300px);
+			transform: translateX(300px);
 		}
 	}
 	.nav-menu-list {
@@ -49,8 +49,8 @@
 		position: absolute;
 		height: 100%;
 		width: 300px;
-		top: 20px;
-		right: -300px;
+		top: 40px;
+		left: -300px;
 		padding: 0;
 		background: #34b399;
 		transition: 0.3s transform ease-in-out;
@@ -87,6 +87,8 @@
 	}
 }
 
-// body {
-// 	background-color: rgb(149, 149, 229);
-// }
+body {
+	background-image: url(https://via.placeholder.com/400);
+	// background-repeat: no-repeat;
+	background-size: auto;
+}
