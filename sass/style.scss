@@ -13,10 +13,9 @@
 @import "components/navigation";
 
 /* Sections */
-// @import "sections/main";
-// @import "sections/generalstat";
-// @import "sections/generallinks";
-// import "sections/registration_form";
+@import "sections/header";
+@import "sections/localization";
+@import "sections/info";
 
 /* Pages / Views */
 // import "pages/registration";

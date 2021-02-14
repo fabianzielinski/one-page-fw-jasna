@@ -1,0 +1,11 @@
+.localization {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	.localization-map {
+		text-align: center;
+		background-color: fade-out($color: $main-gray, $amount: 0.5);
+		padding: 15px 45px 45px 45px;
+	}
+}
