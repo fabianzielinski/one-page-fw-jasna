@@ -2,7 +2,7 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	min-height: 100vh;
 	.main-title {
 		background-color: fade-out($color: $main-gray, $amount: 0.5);
 		padding: 30px;
