@@ -84,6 +84,8 @@
 					background: $main-white;
 					text-decoration: none;
 					box-sizing: border-box;
+					font-family: $font-roboto;
+					font-size: $lg-link-fsize;
 				}
 			}
 		}
@@ -95,4 +97,5 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: $main-white;
+	font-family: $font-roboto;
 }
