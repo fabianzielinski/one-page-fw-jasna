@@ -1,0 +1,16 @@
+footer {
+	.footer-container {
+		background-color: $main-blue;
+		.footer-rights {
+			text-align: center;
+			.footer-link {
+				&:visited {
+					color: $main-white;
+				}
+				&:link {
+					color: $main-white;
+				}
+			}
+		}
+	}
+}
