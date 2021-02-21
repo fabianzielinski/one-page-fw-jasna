@@ -4,8 +4,6 @@
 	height: auto;
 	padding-top: 30px;
 	background-color: fade-out($color: $main-gray, $amount: 0.3);
-	min-height: 100vh;
-	padding-top: 30px;
 	margin-top: 30px;
 	.row {
 		h2 {
@@ -23,6 +21,7 @@
 				}
 			}
 			p {
+				font-size: $sm-link-fsize;
 			}
 		}
 	}

@@ -1,0 +1,25 @@
+.media {
+	text-align: center;
+	min-height: 100vh;
+	height: auto;
+	padding-top: 30px;
+	background-color: fade-out($color: $main-gray, $amount: 0.3);
+	margin-top: 30px;
+	.media-link {
+		height: auto;
+		padding: 10px;
+		display: flex;
+		align-items: center;
+		a {
+			text-align: center;
+			color: $main-white;
+			img {
+				background-color: $main-white;
+				@include size(80px, 80px);
+			}
+			p {
+				font-size: $sm-link-fsize;
+			}
+		}
+	}
+}
