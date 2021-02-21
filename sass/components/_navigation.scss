@@ -6,6 +6,9 @@
 	box-sizing: border-box;
 	height: 40px;
 	width: 100%;
+	@media (max-width: 767px) {
+		width: 100vw;
+	}
 	position: fixed;
 	top: 0;
 	background-color: $main-blue;
